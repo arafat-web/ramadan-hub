@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Full background fill (maskable safe zone requires content within center 80%) -->
+  <rect width="512" height="512" fill="#1e4d3a"/>
+  <!-- Outer ring -->
+  <circle cx="256" cy="256" r="168" fill="none" stroke="#c8860a" stroke-width="7" opacity="0.4"/>
+  <!-- Crescent moon (slightly smaller for maskable safe zone) -->
+  <path d="M 285 158
+             A 106 106 0 1 0 285 354
+             A 80 80 0 1 1 285 158 Z"
+        fill="#e8a320"/>
+  <!-- Star -->
+  <polygon points="322,224 328,244 349,244 333,256 339,276 322,264 305,276 311,256 295,244 316,244"
+           fill="#e8a320" opacity="0.9"/>
+</svg>

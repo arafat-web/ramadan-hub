@@ -1,0 +1,43 @@
+{
+  "name": "রমজান হাব ১৪৪৭",
+  "short_name": "রমজান হাব",
+  "description": "নামাজের সময়, হাদিস, কুরআন, তাসবিহ ও আরও — রমজান ১৪৪৭ হিজরি",
+  "lang": "bn",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#1e4d3a",
+  "background_color": "#f5ede0",
+  "categories": ["lifestyle", "religion", "education"],
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "নামাজের সময়",
+      "short_name": "নামাজ",
+      "url": "/?tab=namaz",
+      "description": "আজকের নামাজের সময়সূচি দেখুন"
+    },
+    {
+      "name": "হাদিস ও কুরআন",
+      "short_name": "হাদিস",
+      "url": "/?tab=history",
+      "description": "হাদিস ও কুরআন পড়ুন"
+    }
+  ],
+  "screenshots": []
+}

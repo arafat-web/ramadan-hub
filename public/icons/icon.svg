@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect width="512" height="512" rx="96" fill="#1e4d3a"/>
+  <!-- Outer ring -->
+  <circle cx="256" cy="256" r="188" fill="none" stroke="#c8860a" stroke-width="8" opacity="0.4"/>
+  <!-- Crescent moon -->
+  <path d="M 290 148
+             A 120 120 0 1 0 290 364
+             A 90 90 0 1 1 290 148 Z"
+        fill="#e8a320"/>
+  <!-- Star -->
+  <polygon points="330,220 337,243 361,243 342,257 349,280 330,266 311,280 318,257 299,243 323,243"
+           fill="#e8a320" opacity="0.9"/>
+  <!-- Arabic text hint line -->
+  <rect x="140" y="390" width="232" height="4" rx="2" fill="#c8860a" opacity="0.5"/>
+</svg>
